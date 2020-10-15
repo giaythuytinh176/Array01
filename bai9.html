@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Title</title>
+        </head>
+<body>
+
+
+<script>
+
+
+    //  Bài 9- Viết chương trình khởi tạo/nhập vào 2 mảng số nguyên gồm 10 phần tử,
+    //          gọi là mảng a và b.
+    //              Mảng c là một mảng được khai báo gồm 20 phần tử số nguyên.
+    //                  Chương trình sẽ lưu các phần tử được nối từ hai mảng b và a vào mảng c.
+    //                  Hiển thị mảng c.
+
+    // let arrInput = new Array(10);
+    // for (let i = 0; i < arrInput.length; i++) {
+    //     arrInput[i] = +prompt("Nhap cac phan tu cua mang thu " + i);
+    // }
+    //console.log(arrInput);
+
+    let arrA = [-5, 1, -4, 1, -10, -3, 12, 55];
+    let arrB = [12, 3, 4, -3, -1, -4, 2, 33];
+    let arrC = [];
+
+    // arrC = arrA.concat(arrB);
+    // console.log(arrC);
+    let lengthA = arrA.length;
+
+    for (let i = 0; i < arrB.length; i++) {
+        arrA[lengthA + i] = arrB[i];
+    }
+
+    console.log(arrA);
+
+
+
+
+
+</script>
+
+</body>
+</html>
